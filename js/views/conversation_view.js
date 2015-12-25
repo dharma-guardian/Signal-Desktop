@@ -72,6 +72,8 @@
             }.bind(this));
 
             this.fetchMessages();
+
+            new Whisper.SocketView().render().$el.appendTo(this.$('.socket-status'));
         },
 
         events: {
