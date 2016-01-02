@@ -267,6 +267,67 @@
     }
   }
 
+   /* red */
+  .color-0 .bubble {
+    background-color: #EF5350;
+  }
+   /* pink */
+  .color-1 .bubble {
+    background-color: #EC407A;
+  }
+   /* purple */
+  .color-2 .bubble {
+    background-color: #AB47BC;
+  }
+   /* deep purple */
+  .color-3 .bubble {
+    background-color: #7E57C2;
+  }
+   /* indigo */
+  .color-4 .bubble {
+    background-color: #5C6BC0;
+  }
+   /* blue */
+  .color-5 .bubble {
+    background-color: #2196F3;
+  }
+   /* light blue */
+  .color-6 .bubble {
+    background-color: #03A9F4;
+  }
+   /* cyan */
+  .color-7 .bubble {
+    background-color: #00BCD4;
+  }
+   /* teal */
+  .color-8 .bubble {
+    background-color: #009688;
+  }
+   /* green */
+  .color-9 .bubble {
+    background-color: #4CAF50;
+  }
+   /* light green */
+  .color-10 .bubble {
+    background-color: #7CB342;
+  }
+   /* orange */
+  .color-11 .bubble {
+    background-color: #FF9800;
+  }
+   /* deep orange */
+  .color-12 .bubble {
+    background-color: #FF5722;
+  }
+   /* amber */
+  .color-13 .bubble {
+    background-color: #FFB300;
+  }
+   /* blue grey */
+  .color-14 .bubble {
+    background-color: #607D8B;
+  }
+
   .bubble {
     position: relative;
     left: -2px;
@@ -325,8 +386,7 @@
       float: left;
     }
     .bubble {
-      color: $grey_d;
-      background-color: $grey_l;
+      color: white;
 
       &::before {
         left: -10px;
@@ -348,11 +408,11 @@
 
     .bubble {
       clear: left;
-      color: white;
-      background-color: $blue;
+      color: $grey_d;
+      background-color: $grey_l;
 
       .meta {
-        color: white;
+        color: $grey;
       }
 
       &::before {

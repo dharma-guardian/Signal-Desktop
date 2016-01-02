@@ -423,7 +423,7 @@ img.emoji {
     display: block; }
 
 .conversation-header {
-  border-bottom: solid 1px #d9d9d9;
+  border-bottom: solid 1px #dadada;
   margin-bottom: 4px;
   padding-bottom: 5px; }
   .conversation-header .avatar {
@@ -732,9 +732,9 @@ input.search {
   width: 18px;
   height: 1em; }
 .outgoing.entry.sent .status {
-  background: url("/images/check-white.png"); }
+  background: url("/images/check.png"); }
 .outgoing.entry.delivered .status {
-  background: url("/images/double-check-white.png"); }
+  background: url("/images/double-check.png"); }
 .outgoing.entry.pending .status {
   background: none; }
   .outgoing.entry.pending .status:before {
@@ -759,7 +759,22 @@ input.search {
 
 .message-detail,
 .message-list {
-  list-style: none; }
+  list-style: none;
+  /* red */
+  /* pink */
+  /* purple */
+  /* deep purple */
+  /* indigo */
+  /* blue */
+  /* light blue */
+  /* cyan */
+  /* teal */
+  /* green */
+  /* light green */
+  /* orange */
+  /* deep orange */
+  /* amber */
+  /* blue grey */ }
   .message-detail li,
   .message-list li {
     max-width: 800px;
@@ -772,6 +787,51 @@ input.search {
       content: " ";
       clear: both;
       height: 0; }
+  .message-detail .color-0 .bubble,
+  .message-list .color-0 .bubble {
+    background-color: #EF5350; }
+  .message-detail .color-1 .bubble,
+  .message-list .color-1 .bubble {
+    background-color: #EC407A; }
+  .message-detail .color-2 .bubble,
+  .message-list .color-2 .bubble {
+    background-color: #AB47BC; }
+  .message-detail .color-3 .bubble,
+  .message-list .color-3 .bubble {
+    background-color: #7E57C2; }
+  .message-detail .color-4 .bubble,
+  .message-list .color-4 .bubble {
+    background-color: #5C6BC0; }
+  .message-detail .color-5 .bubble,
+  .message-list .color-5 .bubble {
+    background-color: #2196F3; }
+  .message-detail .color-6 .bubble,
+  .message-list .color-6 .bubble {
+    background-color: #03A9F4; }
+  .message-detail .color-7 .bubble,
+  .message-list .color-7 .bubble {
+    background-color: #00BCD4; }
+  .message-detail .color-8 .bubble,
+  .message-list .color-8 .bubble {
+    background-color: #009688; }
+  .message-detail .color-9 .bubble,
+  .message-list .color-9 .bubble {
+    background-color: #4CAF50; }
+  .message-detail .color-10 .bubble,
+  .message-list .color-10 .bubble {
+    background-color: #7CB342; }
+  .message-detail .color-11 .bubble,
+  .message-list .color-11 .bubble {
+    background-color: #FF9800; }
+  .message-detail .color-12 .bubble,
+  .message-list .color-12 .bubble {
+    background-color: #FF5722; }
+  .message-detail .color-13 .bubble,
+  .message-list .color-13 .bubble {
+    background-color: #FFB300; }
+  .message-detail .color-14 .bubble,
+  .message-list .color-14 .bubble {
+    background-color: #607D8B; }
   .message-detail .bubble,
   .message-list .bubble {
     position: relative;
@@ -822,8 +882,7 @@ input.search {
     float: left; }
   .message-detail .incoming .bubble,
   .message-list .incoming .bubble {
-    color: #454545;
-    background-color: #f3f3f3; }
+    color: white; }
     .message-detail .incoming .bubble::before,
     .message-list .incoming .bubble::before {
       left: -10px;
@@ -839,11 +898,11 @@ input.search {
   .message-detail .outgoing .bubble,
   .message-list .outgoing .bubble {
     clear: left;
-    color: white;
-    background-color: #2090ea; }
+    color: #454545;
+    background-color: #f3f3f3; }
     .message-detail .outgoing .bubble .meta,
     .message-list .outgoing .bubble .meta {
-      color: white; }
+      color: #616161; }
     .message-detail .outgoing .bubble::before,
     .message-list .outgoing .bubble::before {
       right: -10px;
