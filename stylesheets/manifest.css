@@ -934,13 +934,29 @@ input.search {
     .message-list .outgoing .bubble .content a::-moz-selection {
       color: #454545;
       background: white; }
-  .message-detail .control .bubble .content,
-  .message-list .control .bubble .content {
-    font-style: italic; }
-  .message-detail .control .bubble::before, .message-detail .control .bubble::after,
-  .message-list .control .bubble::before,
-  .message-list .control .bubble::after {
-    display: none; }
+  .message-detail .control .bubble,
+  .message-list .control .bubble {
+    background-color: transparent;
+    float: none;
+    width: 100%;
+    margin: 0;
+    color: #616161;
+    left: initial;
+    box-shadow: none;
+    padding: 0;
+    max-width: 100%; }
+    .message-detail .control .bubble .content,
+    .message-list .control .bubble .content {
+      font-style: italic;
+      text-align: center;
+      width: inherit; }
+    .message-detail .control .bubble .meta,
+    .message-list .control .bubble .meta {
+      display: none; }
+    .message-detail .control .bubble::before, .message-detail .control .bubble::after,
+    .message-list .control .bubble::before,
+    .message-list .control .bubble::after {
+      display: none; }
   .message-detail .attachments a,
   .message-list .attachments a {
     font-style: italic;
