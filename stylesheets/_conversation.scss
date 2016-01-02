@@ -1,8 +1,8 @@
 .conversation {
   background-color: #ffffff;
   margin: -1px 0px 0px 0px;
-  padding: 20px;
-  box-shadow: inset 1px 0px 1px 0px rgba(0,0,0,0.75);
+  padding: 10px;
+  box-shadow: inset 1px 0px 1px 0px rgba(0,0,0,0.5);
 
   .panel {
     height: 100%;
@@ -333,7 +333,7 @@
     display: inline-block;
     vertical-align: top;
     padding: 9px 12px;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 0 3px 3px -4px black;
     word-wrap: break-word;
     margin-left: 8px;

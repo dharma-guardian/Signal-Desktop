@@ -383,7 +383,7 @@ img.emoji {
   height: 100%; }
 
 .inbox {
-  background: #2eace0; }
+  background: #2090ea; }
 
 .container, .scrollable {
   height: 100%;
@@ -433,10 +433,13 @@ img.emoji {
     height: 36px;
     line-height: 36px; }
   @media (min-width: 900px) {
-    .conversation-header .avatar {
-      width: 70px;
-      height: 70px;
-      line-height: 70px; } }
+    .conversation-header {
+      margin-top: 10px;
+      margin-left: 10px; }
+      .conversation-header .avatar {
+        width: 70px;
+        height: 70px;
+        line-height: 70px; } }
 
 .menu button.drop-down {
   background: url("/images/arrow_drop_down.png") no-repeat center; }
@@ -590,8 +593,8 @@ input.search {
 .conversation {
   background-color: #ffffff;
   margin: -1px 0px 0px 0px;
-  padding: 20px;
-  box-shadow: inset 1px 0px 1px 0px rgba(0, 0, 0, 0.75); }
+  padding: 10px;
+  box-shadow: inset 1px 0px 1px 0px rgba(0, 0, 0, 0.5); }
   .conversation .panel {
     height: 100%; }
   .conversation ::-webkit-scrollbar-thumb {
@@ -848,7 +851,7 @@ input.search {
     display: inline-block;
     vertical-align: top;
     padding: 9px 12px;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 0 3px 3px -4px black;
     word-wrap: break-word;
     margin-left: 8px;

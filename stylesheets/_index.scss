@@ -8,7 +8,7 @@
 }
 
 .inbox {
-  background: #2eace0;
+  background: $blue;
 }
 
 .container, .scrollable {
@@ -74,6 +74,9 @@
     line-height: 36px;
   }
   @media(min-width:900px) {
+    margin-top: 10px;
+    margin-left: 10px;
+
     .avatar {
       width: 70px;
       height: 70px;
