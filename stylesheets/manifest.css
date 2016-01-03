@@ -384,6 +384,36 @@ img.emoji {
 
 .inbox {
   background: #2090ea; }
+  .inbox.color-0 {
+    background-color: #EF5350; }
+  .inbox.color-1 {
+    background-color: #EC407A; }
+  .inbox.color-2 {
+    background-color: #AB47BC; }
+  .inbox.color-3 {
+    background-color: #7E57C2; }
+  .inbox.color-4 {
+    background-color: #5C6BC0; }
+  .inbox.color-5 {
+    background-color: #2196F3; }
+  .inbox.color-6 {
+    background-color: #03A9F4; }
+  .inbox.color-7 {
+    background-color: #00BCD4; }
+  .inbox.color-8 {
+    background-color: #009688; }
+  .inbox.color-9 {
+    background-color: #4CAF50; }
+  .inbox.color-10 {
+    background-color: #7CB342; }
+  .inbox.color-11 {
+    background-color: #FF9800; }
+  .inbox.color-12 {
+    background-color: #FF5722; }
+  .inbox.color-13 {
+    background-color: #FFB300; }
+  .inbox.color-14 {
+    background-color: #607D8B; }
 
 .container, .scrollable {
   height: 100%;
