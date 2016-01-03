@@ -732,9 +732,9 @@ input.search {
   width: 18px;
   height: 1em; }
 .outgoing.entry.sent .status {
-  background: url("/images/check.png"); }
+  background: url("/images/check-white.png"); }
 .outgoing.entry.delivered .status {
-  background: url("/images/double-check.png"); }
+  background: url("/images/double-check-white.png"); }
 .outgoing.entry.pending .status {
   background: none; }
   .outgoing.entry.pending .status:before {
@@ -1075,5 +1075,9 @@ input.search {
   .confirmation-dialog button {
     float: right;
     margin-left: 10px; }
+
+.outgoing.entry .status {
+  -webkit-filter: brightness(0.25);
+  filter: brightness(0.25); }
 
 /*# sourceMappingURL=manifest.css.map */
