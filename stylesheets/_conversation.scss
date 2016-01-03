@@ -387,6 +387,10 @@
     .bubble {
       color: white;
 
+      a {
+        color: white;
+      }
+
       &::before {
         left: -10px;
         border-right: 10px solid white;
@@ -426,13 +430,13 @@
 
       .attachments, .content {
         a {
-          color: $grey_l;
+          color: $grey_d;
         }
       }
       .content {
         &::selection, a::selection {
-          color: $grey_d;
-          background: white;
+          color: white;
+          background: $grey_d;
         }
 
         &::-moz-selection, a::-moz-selection {
