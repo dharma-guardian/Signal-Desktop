@@ -771,22 +771,7 @@ input.search {
 
 .message-detail,
 .message-list {
-  list-style: none;
-  /* red */
-  /* pink */
-  /* purple */
-  /* deep purple */
-  /* indigo */
-  /* blue */
-  /* light blue */
-  /* cyan */
-  /* teal */
-  /* green */
-  /* light green */
-  /* orange */
-  /* deep orange */
-  /* amber */
-  /* blue grey */ }
+  list-style: none; }
   .message-detail li,
   .message-list li {
     max-width: 800px;

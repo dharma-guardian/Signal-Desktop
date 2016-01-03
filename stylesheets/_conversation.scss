@@ -266,65 +266,65 @@
     }
   }
 
-   /* red */
+
   .color-0 .bubble {
-    background-color: #EF5350;
+    background-color: $material_red;
   }
-   /* pink */
+
   .color-1 .bubble {
-    background-color: #EC407A;
+    background-color: $material_pink;
   }
-   /* purple */
+
   .color-2 .bubble {
-    background-color: #AB47BC;
+    background-color: $material_purple;
   }
-   /* deep purple */
+
   .color-3 .bubble {
-    background-color: #7E57C2;
+    background-color: $material_deep_purple;
   }
-   /* indigo */
+
   .color-4 .bubble {
-    background-color: #5C6BC0;
+    background-color: $material_indigo;
   }
-   /* blue */
+
   .color-5 .bubble {
-    background-color: #2196F3;
+    background-color: $material_blue;
   }
-   /* light blue */
+
   .color-6 .bubble {
-    background-color: #03A9F4;
+    background-color: $material_light_blue;
   }
-   /* cyan */
+
   .color-7 .bubble {
-    background-color: #00BCD4;
+    background-color: $material_cyan;
   }
-   /* teal */
+
   .color-8 .bubble {
-    background-color: #009688;
+    background-color: $material_teal;
   }
-   /* green */
+
   .color-9 .bubble {
-    background-color: #4CAF50;
+    background-color: $material_green;
   }
-   /* light green */
+
   .color-10 .bubble {
-    background-color: #7CB342;
+    background-color: $material_light_green;
   }
-   /* orange */
+
   .color-11 .bubble {
-    background-color: #FF9800;
+    background-color: $material_orange;
   }
-   /* deep orange */
+
   .color-12 .bubble {
-    background-color: #FF5722;
+    background-color: $material_deep_orange;
   }
-   /* amber */
+
   .color-13 .bubble {
-    background-color: #FFB300;
+    background-color: $material_amber;
   }
-   /* blue grey */
+
   .color-14 .bubble {
-    background-color: #607D8B;
+    background-color: $material_blue_grey;
   }
 
   .bubble {
